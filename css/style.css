@@ -13,6 +13,17 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
+.button-decor {
+    background-color: white;
+    background-size: 200px;
+    border: none;
+    border-radius: 40%;
+}
+
 ul,
 ol,
 menu {
@@ -21,7 +32,7 @@ menu {
 }
 
 .container{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -31,6 +42,10 @@ menu {
     flex-grow: 1;
 }
 
+.button-decor {
+    background-color: white;
+}
+
 /* header */
 .main-header {
 padding: 10px;
@@ -38,10 +53,18 @@ padding: 10px;
 .header-row {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0;
 }
 .header-col {
     text-align: center;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.color, a {
+    color: white;
+
 }
 
 .header-row ul {
