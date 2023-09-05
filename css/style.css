@@ -9,6 +9,9 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
 
 ul,
 ol,
@@ -51,6 +54,12 @@ padding: 10px;
     max-width: 700px;
     margin: 0 auto;
 }
+
+.main-header.bg-color {
+    background-color: #3161E0;
+
+}
+
 .hero {
     padding: 10px;
 }
@@ -101,10 +110,7 @@ section[class^=section] {
 }
 /* Debugs */
 
-.main-header.debug {
-    background-color: red;
 
-}
 
 .header-col.debug {
     background-color: yellow;
