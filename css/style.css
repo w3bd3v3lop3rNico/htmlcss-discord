@@ -86,6 +86,10 @@ padding: 10px;
 .hero {
     padding: 10px;
 }
+main > :first-child {
+    background-image: url(../img/jumbo.png);
+    max-width: 100%;
+}
 
 section[class^=section] {
     padding: 10px;
