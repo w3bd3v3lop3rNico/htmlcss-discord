@@ -24,6 +24,11 @@ button {
     vertical-align: center;
 }
 
+figure > img {
+    display: block;
+    width: 100%
+}
+
 ul,
 ol,
 menu {
@@ -52,9 +57,11 @@ padding: 10px;
 }
 
 .header-row {
+    /* correggere */
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    flex-wrap: wrap;
 }
 
 .header-col {
@@ -62,11 +69,12 @@ padding: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.header-col li{
+/* .header-col li{
     flex-basis: calc((100% * 5) / 12);
-}
+} */
 
 .color a {
     color: white;
@@ -79,19 +87,22 @@ padding: 10px;
 
 .header-row ul {
     flex-grow: 1;
-    padding: 0 150px;
+    
 }
 
 /* MAIN */
 
 .container-sm {
     max-width: 700px;
-    margin: 120px auto;
+    margin: 0 auto;
 
 }
 
 .hero {
-    padding: 10px;
+    padding: 100px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .paragraph {
@@ -102,8 +113,7 @@ padding: 10px;
 }
 
 main > :first-child {
-    background-image: url(../img/jumbo.png);
-    background-size: contain;
+    
     
 }
 
