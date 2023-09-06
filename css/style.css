@@ -17,9 +17,8 @@ a {
     text-decoration: none;
 }
 
-.button-decor {
-    background-color: white;
-    background-size: 200px;
+button {
+    padding: 15px;
     border: none;
     border-radius: 40%;
 }
@@ -62,6 +61,10 @@ padding: 10px;
     align-items: center;
 }
 
+.header-col li{
+    flex-basis: calc((100% * 5) / 12);
+}
+
 .color, a {
     color: white;
 
@@ -69,6 +72,7 @@ padding: 10px;
 
 .header-row ul {
     flex-grow: 1;
+    padding: 0 150px;
 }
 
 /* MAIN */
