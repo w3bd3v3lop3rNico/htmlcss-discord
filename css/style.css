@@ -92,7 +92,7 @@ padding: 10px;
 }
 main > :first-child {
     background-image: url(../img/jumbo.png);
-    max-width: 100%;
+    background-size: contain;
 }
 
 section[class^=section] {
