@@ -42,9 +42,6 @@ menu {
     flex-grow: 1;
 }
 
-.button-decor {
-    background-color: white;
-}
 
 /* header */
 .main-header {
@@ -75,6 +72,10 @@ padding: 10px;
     color: white;
 
 }
+.button-decor a {
+    color: black;
+    background-color: white;
+}
 
 .header-row ul {
     flex-grow: 1;
@@ -85,28 +86,60 @@ padding: 10px;
 
 .container-sm {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 120px auto;
+
 }
 
 .hero {
     padding: 10px;
 }
 
+.paragraph {
+    line-height: 40px;
+}
+.col-12 p {
+    margin-bottom: 30px;
+}
 
 main > :first-child {
     background-image: url(../img/jumbo.png);
     background-size: contain;
+    
 }
 
 section[class^=section] {
     padding: 10px;
 
 }
+.hero, .col-12{
+    text-align: center;
+    color: white;
+}
+.col-12 h1 {
+font-size: 50px;
+margin-bottom: 30px;
+}
 
+.hero-btns .btn-right  {
+    background-color: black;
+}
+.btn-right a {
+    color: white;
+}
+
+.btn-left a {
+    color: black;
+}
+
+
+.col-12, p {
+    line-height: 30px;
+}
 
 
 .col-12 {
     flex-basis: 100%;
+    
 }
 
 .col-8 {
@@ -163,13 +196,13 @@ background-color: blue;
     background-color: green;
 }
 
-.debug[class^=col] {
+/* .debug[class^=col] {
     background-color: yellow;
     border: dashed black 5px;
     text-align: center;
     min-height: 200px;
 
-}
+} */
 
 .debug.footer-row {
     background-color: aqua;
