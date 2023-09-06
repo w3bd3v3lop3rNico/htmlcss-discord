@@ -21,6 +21,7 @@ button {
     padding: 15px;
     border: none;
     border-radius: 40%;
+    vertical-align: center;
 }
 
 ul,
@@ -49,11 +50,16 @@ menu {
 .main-header {
 padding: 10px;
 }
+.main-header.bg-color {
+    background-color: #3161E0;
+}
+
 .header-row {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
 }
+
 .header-col {
     text-align: center;
     display: flex;
@@ -65,7 +71,7 @@ padding: 10px;
     flex-basis: calc((100% * 5) / 12);
 }
 
-.color, a {
+.color a {
     color: white;
 
 }
@@ -82,14 +88,11 @@ padding: 10px;
     margin: 0 auto;
 }
 
-.main-header.bg-color {
-    background-color: #3161E0;
-
-}
-
 .hero {
     padding: 10px;
 }
+
+
 main > :first-child {
     background-image: url(../img/jumbo.png);
     background-size: contain;
