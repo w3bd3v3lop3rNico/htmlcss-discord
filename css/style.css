@@ -168,6 +168,9 @@ p {
 .col-4 {
     flex-basis: calc((100% * 4) /12);
 }
+.card-text {
+    color: black;
+}
 
 
 /* FOOTER */
