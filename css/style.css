@@ -4,11 +4,13 @@ html {
     font-family: 'Fredoka', sans-serif;
 
 }
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 img {
     max-width: 100%;
 }
@@ -24,7 +26,7 @@ button {
     vertical-align: center;
 }
 
-figure > img {
+figure>img {
     display: block;
     width: 100%
 }
@@ -36,7 +38,7 @@ menu {
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -50,8 +52,9 @@ menu {
 
 /* header */
 .main-header {
-padding: 10px;
+    padding: 10px;
 }
+
 .main-header.bg-color {
     background-color: #3161E0;
 }
@@ -80,6 +83,7 @@ padding: 10px;
     color: white;
 
 }
+
 .button-decor a {
     color: black;
     background-color: white;
@@ -87,7 +91,7 @@ padding: 10px;
 
 .header-row ul {
     flex-grow: 1;
-    
+
 }
 
 /* MAIN */
@@ -108,31 +112,35 @@ padding: 10px;
 .paragraph {
     line-height: 40px;
 }
+
 .col-12 p {
     margin-bottom: 30px;
 }
 
-main > :first-child {
-    
-    
+.reverse-row {
+    flex-direction: row-reverse;
 }
 
 section[class^=section] {
     padding: 10px;
 
 }
-.hero, .col-12{
+
+.hero,
+.col-12 {
     text-align: center;
     color: white;
 }
+
 .col-12 h1 {
-font-size: 50px;
-margin-bottom: 30px;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
 
-.hero-btns .btn-right  {
+.hero-btns .btn-right {
     background-color: black;
 }
+
 .btn-right a {
     color: white;
 }
@@ -142,14 +150,15 @@ margin-bottom: 30px;
 }
 
 
-.col-12, p {
+.col-12,
+p {
     line-height: 30px;
 }
 
 
 .col-12 {
     flex-basis: 100%;
-    
+
 }
 
 .col-8 {
@@ -159,6 +168,7 @@ margin-bottom: 30px;
 .col-4 {
     flex-basis: calc((100% * 4) /12);
 }
+
 
 /* FOOTER */
 
@@ -171,40 +181,45 @@ margin-bottom: 30px;
     flex-basis: calc((100% * 2) / 12);
 
 }
+
 .footer-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-col {
     text-align: center;
 
 }
+
 .footer-section-2 {
     border-top: 3px solid white;
     padding-top: 30px;
 }
+
 /* Debugs */
 
 
 
-.header-col.debug {
+/* .header-col.debug {
     background-color: yellow;
     border: dashed black 5px;
-    
+
 }
 
 .hero.debug {
-background-color: lightcoral;
+    background-color: lightcoral;
 }
 
 .section-odd.debug {
-background-color: blue;
+    background-color: blue;
 }
+
 .section-even.debug {
     background-color: green;
-}
+} */
 
 /* .debug[class^=col] {
     background-color: yellow;
@@ -218,6 +233,7 @@ background-color: blue;
     background-color: aqua;
     min-height: 100px;
 }
+
 footer.debug {
     background-color: black;
 }
